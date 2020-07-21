@@ -1,16 +1,19 @@
 {
   "name": "kodai3",
   "version": "1.0.0",
-  "main": "dist/index.js",
   "engines": {
     "node": ">=10"
+  },
+  "bin": {
+    "kodai3": "dist/index.js"
   },
   "license": "MIT",
   "author": "kodai3 <k3dai.su3@gmail.com>",
   "repository": "https://github.com/kodai3/kodai3",
   "scripts": {
     "lint": "eslint",
-    "build": "yarn tsc"
+    "build": "yarn tsc",
+    "pre-publish": "rm -rf ./dist && yarn build"
   },
   "dependencies": {
     "open": "^7.1.0"
