@@ -1,0 +1,9 @@
+# build
+dist/
+
+# yarn
+yarn-error.log
+.yarn
+node_modules/
+
+.DS_Store
