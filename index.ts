@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 import open from 'open';
 
 const links = {
