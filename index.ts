@@ -21,7 +21,7 @@ where <command> is one of:
 const whoami = () => console.log(`
 Name            :    Kodai Suzuki
 Date of birth   :    1997
-Hobby           :    Motorcycle (Husqvarna Vipilen 401)
+Hobby           :    Motorcycle (Husqvarna Vipilen 401 & Monkey 125)
 `)
 
 const argv = process.argv.slice(2);
