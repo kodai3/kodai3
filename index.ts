@@ -21,6 +21,7 @@ where <command> is one of:
 const whoami = () => console.log(`
 Name            :    Kodai Suzuki
 Date of birth   :    1997
+Work for        :    Gaudiy
 Hobby           :    Motorcycle (Husqvarna Vipilen 401 & Monkey 125)
 `)
 
