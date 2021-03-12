@@ -34,7 +34,7 @@ jobs:
         run: yarn pre-publish
 
       - name: publish
-        run: npx can-npm-publish --verbose && yarn publish || echo "Does not publish"
+        run: npx can-npm-publish --verbose && npm publish || echo "Does not publish"
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_AUTH_TOKEN }}
       # Push tag to GitHub if package.json version's tag is not tagged
