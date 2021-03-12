@@ -6,7 +6,7 @@ on:
     branches:
       - master
     tags:
-      - '!*'
+      - "!*"
 
 jobs:
   release:
@@ -19,7 +19,7 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 10.x
-          registry-url: 'https://npm.pkg.github.com'
+          registry-url: "https://npm.pkg.github.com"
 
       - name: Cache dependencies
         uses: actions/cache@v1
@@ -35,7 +35,7 @@ jobs:
 
       - name: publish
         run: |
-          npx can-npm-publish --verbose && yarn publish ./dist/ || echo "Does not publish"
+          npx can-npm-publish --verbose && yarn publish || echo "Does not publish"
         env:
           NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -45,4 +45,4 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           github_repo: ${{ github.repository }}
           git_commit_sha: ${{ github.sha }}
-          git_tag_prefix: 'v'
+          git_tag_prefix: "v"
