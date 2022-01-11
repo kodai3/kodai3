@@ -22,7 +22,8 @@ const whoami = () => console.log(`
 Name            :    Kodai Suzuki
 Date of birth   :    1997
 Work for        :    Gaudiy
-Hobby           :    Motorcycle (Husqvarna Vipilen 401 & GSX-R750)
+Hobby           :    Motorcycle (Husqvarna Vipilen 401 & Suzuki GSX-R750)
+`)
 
 const argv = process.argv.slice(2);
 
