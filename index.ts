@@ -1,13 +1,14 @@
 #!/usr/bin/env node
-import open from 'open';
+import open from "open";
 
 const links = {
-    github: "https://github.com/kodai3",
-    twitter: "https://twitter.com/r34b26",
-    facebook: "https://www.facebook.com/profile.php?id=100006071802580"
-}
+  github: "https://github.com/kodai3",
+  twitter: "https://twitter.com/r34b26",
+  facebook: "https://www.facebook.com/profile.php?id=100006071802580",
+};
 
-const help = () => console.log(`
+const help = () =>
+  console.log(`
 Usage: kodai3 <command>
 
 where <command> is one of:
@@ -16,50 +17,51 @@ where <command> is one of:
     github     oepn github   ${links.github}
     twitter    open twitter  ${links.twitter}
     facebook   open facebook ${links.facebook}
-`)
+`);
 
-const whoami = () => console.log(`
+const whoami = () =>
+  console.log(`
 Name            :    Kodai Suzuki
 Date of birth   :    1997
 Work for        :    Gaudiy
-Hobby           :    Motorcycle (Kawasaki Z900RS 50th & Husqvarna Vipilen 401 & Suzuki GSX-R750)
-`)
+Hobby           :    Car (FD3S Type RZ & S2000 AP2) & Motorcycle (Kawasaki Z900RS 50th & Husqvarna Vipilen 401)
+`);
 
 const argv = process.argv.slice(2);
 
 if (argv.length !== 1) {
-    help();
-    process.exit(0);
+  help();
+  process.exit(0);
 }
 
 switch (argv[0].toLocaleLowerCase()) {
-    case 'help':
-        help();
-        process.exit(0);
+  case "help":
+    help();
+    process.exit(0);
 
-    case 'whoami':
-        whoami();
-        process.exit(0);
+  case "whoami":
+    whoami();
+    process.exit(0);
 
-    case 'github':
-        open(links.github).then(() => {
-            process.exit(0);
-        });
-        break;
+  case "github":
+    open(links.github).then(() => {
+      process.exit(0);
+    });
+    break;
 
-    case 'twitter':
-        open(links.twitter).then(() => {
-            process.exit(0);
-        })
-        break;
+  case "twitter":
+    open(links.twitter).then(() => {
+      process.exit(0);
+    });
+    break;
 
-    case 'facebook':
-        open(links.facebook).then(() => {
-            process.exit(0);
-        })
-        break;
+  case "facebook":
+    open(links.facebook).then(() => {
+      process.exit(0);
+    });
+    break;
 
-    default:
-        help();
-        process.exit(0);
+  default:
+    help();
+    process.exit(0);
 }
