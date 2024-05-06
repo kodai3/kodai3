@@ -94,3 +94,4 @@ jobs:
               owner: context.repo.owner,
               repo: context.repo.repo,
               body: '🎉 Release https://github.com/${{ github.repository }}/releases/tag/v${{ env.CURRENT_VERSION }}'
+            })
