@@ -1,8 +1,6 @@
 {
   "git": {
-    "commitMessage": "chore(release): 🤖 v${version}"
-  },
-  "github": {
-    "release": true
+    "commit": false,
+    "push": false
   }
 }
