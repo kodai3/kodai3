@@ -2,5 +2,8 @@
   "git": {
     "commit": false,
     "push": false
+  },
+  "npm": {
+    "publish": false
   }
 }
