@@ -1,6 +1,6 @@
 # Kodai
 
-Front-End Engineer in Tokyo, Japan · working at [Gaudiy](https://gaudiy.com)
+ Product Engineer in Tokyo, Japan · working at [Gaudiy](https://gaudiy.com)
 
 ```bash
 npx kodai3 whoami
