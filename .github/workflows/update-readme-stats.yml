@@ -27,7 +27,7 @@ jobs:
           options: >-
             username=kodai3&count_private=true&show_icons=true&theme=dracula
           path: profile/stats.svg
-          token: ${{ secrets.README_STATS_TOKEN || secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.README_STATS_TOKEN || github.token }}
           fail_on_error: "true"
 
       - name: Generate top languages card
@@ -37,7 +37,7 @@ jobs:
           options: >-
             username=kodai3&hide=jupyter%20notebook&layout=compact&theme=dracula
           path: profile/top-langs.svg
-          token: ${{ secrets.README_STATS_TOKEN || secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.README_STATS_TOKEN || github.token }}
           fail_on_error: "true"
 
       - name: Commit cards
