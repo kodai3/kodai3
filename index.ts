@@ -14,7 +14,7 @@ Usage: kodai3 <command>
 where <command> is one of:
     help       what you see now
     whoami     show who am i
-    github     oepn github   ${links.github}
+    github     open github   ${links.github}
     twitter    open twitter  ${links.twitter}
     facebook   open facebook ${links.facebook}
 `);

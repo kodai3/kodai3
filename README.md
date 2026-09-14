@@ -1,12 +1,21 @@
 # Kodai
 
-Front-End Engineer working at Tokyo, Japan
+Front-End Engineer in Tokyo, Japan · working at [Gaudiy](https://gaudiy.com)
 
-`npx kodai3 whoami`
+```bash
+npx kodai3 whoami
+```
 
-<a href="https://github.com/kodai3/github-readme-stats">
-  <img align="left" src="https://github-readme-stats.k3daisu3.vercel.app/api?username=kodai3&count_private=true&theme=dracula" />
-</a>
-<a href="https://github.com/kodai3/convoychat">
-  <img align="left" src="https://github-readme-stats.k3daisu3.vercel.app/api/top-langs/?username=kodai3&hide=jupyter%20notebook" />
-</a>
+<p>
+  <img src="./profile/stats.svg" alt="kodai3 GitHub stats" />
+  <img src="./profile/top-langs.svg" alt="kodai3 top languages" />
+</p>
+
+<!--
+Stats cards are generated daily by `.github/workflows/update-readme-stats.yml`
+(using stats-organization/github-readme-stats-action — successor to the
+deprecated anuraghazra/github-readme-stats Vercel deploy).
+
+Optional: set repository secret README_STATS_TOKEN to a classic PAT with
+`repo` + `read:user` so `count_private=true` includes private contributions.
+-->
