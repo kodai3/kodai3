@@ -16,7 +16,7 @@ jobs:
   cards:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
       # Prefer README_STATS_TOKEN (PAT with repo + read:user) for private contribution counts.
       # Falls back to GITHUB_TOKEN (public activity only).
