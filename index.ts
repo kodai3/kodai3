@@ -31,37 +31,31 @@ const argv = process.argv.slice(2);
 
 if (argv.length !== 1) {
   help();
-  process.exit(0);
+} else {
+  switch (argv[0].toLocaleLowerCase()) {
+    case "help":
+      help();
+      break;
+
+    case "whoami":
+      whoami();
+      break;
+
+    case "github":
+      await open(links.github);
+      break;
+
+    case "twitter":
+      await open(links.twitter);
+      break;
+
+    case "facebook":
+      await open(links.facebook);
+      break;
+
+    default:
+      help();
+  }
 }
 
-switch (argv[0].toLocaleLowerCase()) {
-  case "help":
-    help();
-    process.exit(0);
-
-  case "whoami":
-    whoami();
-    process.exit(0);
-
-  case "github":
-    open(links.github).then(() => {
-      process.exit(0);
-    });
-    break;
-
-  case "twitter":
-    open(links.twitter).then(() => {
-      process.exit(0);
-    });
-    break;
-
-  case "facebook":
-    open(links.facebook).then(() => {
-      process.exit(0);
-    });
-    break;
-
-  default:
-    help();
-    process.exit(0);
-}
+process.exit(0);
