@@ -18,4 +18,6 @@ deprecated anuraghazra/github-readme-stats Vercel deploy).
 
 Optional: set repository secret README_STATS_TOKEN to a classic PAT with
 `repo` + `read:user` so `count_private=true` includes private contributions.
+
+New Mac: see docs/bootstrap.md (./scripts/setup.sh).
 -->

@@ -17,6 +17,9 @@ where <command> is one of:
     github     open github   ${links.github}
     twitter    open twitter  ${links.twitter}
     facebook   open facebook ${links.facebook}
+
+Machine setup (clone this repo, not npx):
+    ./scripts/setup.sh
 `);
 
 const whoami = () =>

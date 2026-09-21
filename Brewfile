@@ -1,0 +1,13 @@
+brew "gh"
+brew "direnv"
+brew "fnm"
+brew "peco"
+
+cask "iterm2"
+cask "cursor"
+cask "raycast"
+cask "docker-desktop"
+cask "google-chrome"
+cask "thebrowsercompany-dia"
+cask "claude"
+cask "chatgpt"
