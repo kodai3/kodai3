@@ -1,0 +1,5 @@
+interface:
+  display_name: "To Tickets"
+  short_description: "spec を tracer-bullet の ticket に分ける"
+policy:
+  allow_implicit_invocation: false

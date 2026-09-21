@@ -1,0 +1,5 @@
+interface:
+  display_name: "Wayfinder"
+  short_description: "大きな作業を decision ticket の地図にする"
+policy:
+  allow_implicit_invocation: false
