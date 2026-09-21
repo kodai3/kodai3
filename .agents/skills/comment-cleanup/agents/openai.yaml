@@ -1,0 +1,3 @@
+interface:
+  display_name: "Comment cleanup"
+  short_description: "Keep comments concise and durable"

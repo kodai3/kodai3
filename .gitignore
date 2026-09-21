@@ -9,3 +9,9 @@ node_modules/
 .DS_Store
 
 .npmrc
+
+# Claude / Cursor runtime in this repo (keep the skill symlinks)
+.claude/*
+!.claude/skills
+.cursor/*
+!.cursor/skills
