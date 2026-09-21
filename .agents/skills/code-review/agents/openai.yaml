@@ -1,0 +1,3 @@
+interface:
+  display_name: "Code Review"
+  short_description: "差分を Standards と Spec で見る"

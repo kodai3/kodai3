@@ -1,0 +1,5 @@
+interface:
+  display_name: "Grill with Docs"
+  short_description: "設計を問い詰め、ADR と用語を書く"
+policy:
+  allow_implicit_invocation: false

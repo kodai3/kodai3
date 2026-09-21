@@ -1,0 +1,5 @@
+interface:
+  display_name: "Setup Matt Pocock Skills"
+  short_description: "tracker とドメイン文書の配置を設定する"
+policy:
+  allow_implicit_invocation: false

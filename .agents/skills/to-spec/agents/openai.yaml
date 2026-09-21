@@ -1,0 +1,5 @@
+interface:
+  display_name: "To Spec"
+  short_description: "会話を spec にして tracker に出す"
+policy:
+  allow_implicit_invocation: false

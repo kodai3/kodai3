@@ -1,0 +1,5 @@
+interface:
+  display_name: "Implement"
+  short_description: "spec または ticket を実装する"
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,5 @@
+interface:
+  display_name: "Triage"
+  short_description: "issue を triage ロールの状態機械で動かす"
+policy:
+  allow_implicit_invocation: false
